@@ -21,6 +21,7 @@ export default function TextForm(props) {
   const [text, setText] = useState(" ");
 //   setText("Enter the appropriate value here");
   return (
+    
   <>
   <div className="container">
   <h1>{props.heading}</h1> 
